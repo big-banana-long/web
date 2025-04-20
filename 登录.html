@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="css/style1.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+   
+    <div class="form-container">
+        <h1 class="biaoti">登录</h1>
+        <div class="form-group">
+            <label for="zhanghao">账号</label>
+            <input type="text" id="zhanghao" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="mima">密码</label>
+            <input type="password" id="mima" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="yanzhengma">验证码</label>
+            <input type="text" id="yanzhengma" class="form-control">
+            <span id="yanzhengma-text" class="captcha-box"></span>
+        </div>
+        <button class="btn" onclick="denglu()">登录</button>
+        <p id="shijian" class="time-display"></p>
+    </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
