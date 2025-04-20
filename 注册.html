@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="css/style2.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<form class="form-container">
+    <fieldset class="form-fieldset">
+        <legend class="form-legend">新用户注册</legend>
+        <div class="form-group">
+            <label for="username" class="form-label">用户名：</label>
+            <input type="text" id="username" class="form-input">
+        </div>
+        <div class="form-group">
+            <label for="mima" class="form-label">密码：</label>
+            <input type="password" id="mima" class="form-input">
+        </div>
+        <div class="form-group">
+            <label for="querenmima" class="form-label">确认密码：</label>
+            <input type="password" id="querenmima" class="form-input">
+        </div>
+        <div class="form-group">
+            <label for="youxiang" class="form-label">Email：</label>
+            <input type="email" id="youxiang" class="form-input">
+        </div>
+        <div class="form-group">
+            <label for="xingmin" class="form-label">姓名：</label>
+            <input type="text" id="xingmin" class="form-input">
+        </div>
+        <div class="form-group">
+            <label for="dianhua" class="form-label">电话：</label>
+            <input type="tel" id="dianhua" class="form-input">
+        </div>
+        <div class="form-group">
+            <label class="form-label">性别</label>
+            <div class="form-radio-group">
+                <input type="radio" id="nan" class="form-radio" name="xinbie">
+                <label for="nan">男</label>
+                <input type="radio" id="nv" class="form-radio" name="xinbie">
+                <label for="nv">女</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="riqi" class="form-label">出生日期</label>
+            <input type="date" id="riqi" class="form-input">
+        </div>
+        <div class="form-code-group">
+            <label for="yanzhengma" class="form-label">验证码:</label>
+            <input type="text" id="yanzhengma" class="form-input">
+            <span id="yanzhengma-text"></span>
+        </div>
+        <button onclick="zhuce()" class="form-button">提交</button>
+    </fieldset>
+</form>
+  <script src="js/script2.js"></script>
+
+</body>
+</html>
